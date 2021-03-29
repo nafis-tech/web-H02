@@ -1,0 +1,141 @@
+/* Untuk Tablet*/
+@media all and (max-width: 1000px) {
+	.header-right ul {
+		margin-right: 10px;
+		font-size: 14px;
+		position: relative;
+
+	}
+
+	.template {
+		width: 50%;
+	}
+
+	.content h1 {
+		font-size: 48px;
+	}
+
+	.content h3 h2 {
+		font-size: 18px;
+	}
+
+	.main-header {
+		background-position: center;
+	}
+
+	.template-title h2 {
+		font-size: 42px;
+	}
+
+	.template-title h3 {
+		font-size: 18px;
+	}
+
+	.template1 {
+		padding-left: 80px;
+		padding-right: 80px;
+		height: 900px;
+	}
+
+	.template {
+		float: left;
+		width: 50%;
+	}
+
+	.title h1 {
+		font-size: 42px;
+	} 
+
+	.title h3 {
+		font-size: 18px;
+	}
+
+	.testimoni {
+		text-align: center;
+		height: 550px;
+	}
+
+	.title {
+		padding-top: 50px;
+	}
+
+	.title h3 {
+		padding-bottom: 30px;
+	}
+
+	.testimoni-1 {
+		width: 50%;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.komentar img {
+		width: 90%;
+	}
+
+	.kontak-title h1 {
+		font-size: 42px;
+		padding-left: 100px;
+	}
+
+	.kontak-btn a {
+		margin-right: 100px;
+	}
+
+	.logo-footer {
+		width: 50%;
+		padding-left: 100px;
+	}
+
+	.menu-list {
+		padding-left: 350px;
+		font-size: 14px;
+		position: absolute;
+	}
+
+	.email-phone {
+		font-size: 14px;
+		padding-left: 20px;
+	}
+
+	.social-media {
+		font-size: 14px;
+		position: absolute;
+		padding-left: 555px;
+	}
+	
+}
+
+
+/* Untuk Smartphone*/
+
+@media screen and (max-width: 900px) {
+    footer {
+        position: relative;
+        bottom: 0px;
+    }
+
+    .main-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .main-content .box {
+        margin: 5px 0;
+    }
+	.header-right {
+		display: none;
+	}
+
+	.menu.icon {
+		display: none;
+		padding-right: 20px;
+	}
+	
+
+
+
+
+
+

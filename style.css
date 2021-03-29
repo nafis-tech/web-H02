@@ -1,0 +1,421 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	background-color: white;
+}
+
+.header {
+	height: 90px;
+	background-color: #EEB2B9;
+	position: fixed;
+	z-index: 5000;
+	width: 100%;
+	margin-bottom: 100px;
+	margin-top: 0;
+}
+
+.header-left {
+	float: left;
+	margin-top: 20px;
+	padding-left: 92px;
+}
+
+.header-right ul {
+	margin-right: 20px;
+}
+
+.header-right li {
+	list-style: none;
+	float: left;
+	padding-right: 32px;
+	color: white; 
+}
+
+li span {
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 13px 26px;
+	border-radius: 20px;
+	color:white;
+
+}
+
+.header-right {
+	float: right;
+	font-family: 'linotte-semibold';
+	padding-right: 93px;
+	padding-top: 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.main-header {
+	height: 763px;
+	background-image: url('https://raw.githubusercontent.com/mawardik-project/H04-DTS-Project/main/Background.png');
+	background-size: cover;
+	width: 100%;
+}
+
+.content {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 62px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    color: #E26977;
+    margin-bottom: 10px;
+}
+
+.content h3 {
+	font-size: 22px;
+	font-family: 'linotte-regular';
+    src: url('linotte_regular-webfont.woff2') format('woff2'),
+         url('linotte_regular-webfont.woff') format('woff');
+    margin-bottom: -10px;
+}
+
+.content h2 {
+	font-size: 22px;
+	font-family: 'linotte-regular';
+    src: url('linotte_regular-webfont.woff2') format('woff2'),
+         url('linotte_regular-webfont.woff') format('woff');
+    margin-bottom: 50px;
+}
+
+.btn a {
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-family: 'linotte-semibold';
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.template-title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.template-title h2 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    color: #E26977;
+    margin-bottom: 0px;
+}
+
+.template-title h3 {
+	font-size: 22px;
+	color: #B8B8B8;
+	font-family: 'linotte-regular';
+	margin-bottom: 20px;
+}
+
+.template-title img {
+	opacity: 0.5;
+}
+
+.template1 {
+	margin-top: 50px;
+	text-align: center;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+
+.template {
+	padding: 10px;
+	display: inline-block;
+}
+
+.card {
+	position: relative;
+}
+
+.template p {
+font-size: 26px;
+font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+top: 80%;
+margin-top: -40px;
+}
+
+
+
+
+.testimoni {
+	text-align: center;
+	height: 680px;
+	background-image: url(https://raw.githubusercontent.com/mawardik-project/H04-DTS-Project/main/background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.testimoni-1 {
+	display: inline-block;
+	margin-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.komentar {
+	
+	padding-bottom: 20px;
+	
+}
+
+.title {
+	text-align: center;
+	padding-top: 92px;
+	color: white;
+}
+
+.title h1 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    letter-spacing: 1px;
+	color:white;
+}
+
+.title h3 {
+	font-size: 22px;
+	font-family: 'linotte-semibold';
+	padding-bottom: 60px;
+	color:white;
+
+}
+
+
+.kontak {
+	height: 228px;
+	background-color: white;
+}
+
+.kontak-title h1 {
+	font-size: 48px;
+	font-family: 'balgorregular';
+    src: url('balgor-webfont.woff2') format('woff2'),
+         url('balgor-webfont.woff') format('woff');
+    letter-spacing: 1px;
+    padding-top: 80px;
+    padding-left: 194px;
+}
+
+.kontak-btn a {
+	float:right;
+	background-image: linear-gradient(to right, #E26977 0%, #E269c6 100%);
+	padding: 15px 42px;
+	border-radius: 30px;
+	font-family: 'linotte-semibold';
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	margin-right: 190px;
+	margin-top: -80px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: palevioletred;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer {
+    
+    bottom: 0px;
+    width: 100%;
+    background: white;
+
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: white;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: tomato;
+    top: -10px;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 10px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+    ;
+}
+
+.left .social h2 {
+    margin: 10px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: wheat;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0, 3s;
+}
+
+.left .content .social a span:hover {
+    background: yellowgreen;
+}
+
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: wheat;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0, 3s;
+    cursor: pointer;
+}
+
+.center .content .fas:hover {
+    background: yellowgreen;
+}
+
+.center .content .text {
+    font-size: 1.0635rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 10px 0;
+}
+
+.right form .text {
+    font-size: 1.0635rem;
+    margin-bottom: 2px;
+    color: tomato;
+}
+
+.right form .msg {
+    margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+    width: 100%;
+    font-size: 1.0635rem;
+    background: whitesmoke;
+    padding-left: 10px;
+    border: 1px solid #222;
+}
+
+.right form input:focus,
+.right form textarea:focus {
+    outline-color: rebeccapurple;
+}
+
+.right form input {
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 10px;
+}
+
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: wheat;
+    font-size: 1.0635rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right form .btn button:hover {
+    background: yellowgreen
+}
+
+.bottom center {
+    border: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom center span {
+    color: #656;
+}
+
+.bottom center a {
+    color: #f12020;
+    text-decoration: none;
+}
+
+.bottom center a:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+	display: none;
+}
